@@ -1004,7 +1004,7 @@ with st.sidebar:
     st.divider()
     if st.button("🏠 Inicio", use_container_width=True):
         st.session_state.vista = "inicio"
-    if st.button("💊 Limpieza farmacéutica", use_container_width=True):
+    if st.button("💊 Limpieza de Descripción", use_container_width=True):
         st.session_state.vista = "farmaceutica"
     st.divider()
     st.caption("Nuevos procesos podrán agregarse aquí sin cambiar la estructura principal.")
