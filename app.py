@@ -1024,7 +1024,7 @@ if st.session_state.vista == "inicio":
         <div class="process-card">
             <div class="process-icon">💊</div>
             <span class="badge">ACTIVO</span>
-            <h3>Limpieza farmacéutica</h3>
+            <h3>Limpieza de Descripción</h3>
             <p>Extrae marca, concentración, molécula, presentación y forma farmacéutica desde la descripción.</p>
         </div>
         """, unsafe_allow_html=True)
