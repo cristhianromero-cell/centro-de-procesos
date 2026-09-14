@@ -1055,7 +1055,7 @@ if st.session_state.vista == "inicio":
 else:
     top1, top2 = st.columns([5,1])
     with top1:
-        st.subheader("💊 Limpieza de productos farmacéuticos")
+        st.subheader("💊 Limpieza de Descripción")
         st.markdown('<div class="small-note">Carga un archivo Excel, selecciona la hoja y ejecuta el proceso.</div>', unsafe_allow_html=True)
     with top2:
         if st.button("← Volver", use_container_width=True):
